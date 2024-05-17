@@ -1,0 +1,53 @@
+<!Doctype html>
+<html lang="es-MX">
+<head>
+  <title>Párrafo con letra capitular</title>
+  <meta charset="utf-8">
+  <meta name="author" content="Eduardo Yael">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica&family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --colorFondo: #FAF0E6;
+      --colorTexto: #191919;
+    }
+    body{
+      background-color: var(--colorFondo);
+      color: var(--colorTexto);
+    }
+    p{
+      margin: 1% 0%;
+      font: normal 1.5em/1.4em 'Goudy Old Style', 'Georgia', serif;
+      text-align: justify;
+    }
+    main{
+      width: 50%;
+      height: 100vh;
+      margin: 0% 25%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .capitular{
+      font: normal 6em/.6em 'UnifrakturCook', cursive;
+      color: rgba(255, 0, 0, .6);
+      float: left;
+    }
+    .versalitas{
+      font-variant: small-caps;
+      letter-spacing: 2px;
+    }
+    .banderaDer{
+      text-align: right;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <p><span class="capitular">E</span>l universo, querido, es bien poca cosa; es una cuestión de escritura. El universo sólo existe sobre el papel.</p> <p class="banderaDer"><span class="versalitas">&#x2014;Paul Valery,</span> <cite>Monsieur Teste</cite></p>
+  </main>
+</body>
+</html>
